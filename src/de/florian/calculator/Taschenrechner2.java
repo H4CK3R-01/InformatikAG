@@ -27,7 +27,7 @@ public class Taschenrechner2 {
 			System.out.println("e) Potenzieren");
 			System.out.println("f) Quadratwurzel ziehen");
 			System.out.println("g) Beenden");
-			System.out.print("Was möchtest du machen? ");
+			System.out.print("Was mÃ¶chtest du machen? ");
 			auswahl = scanner.next().trim().charAt(0);
 
 			// Addieren

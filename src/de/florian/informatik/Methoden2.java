@@ -15,7 +15,7 @@ public class Methoden2 {
 
 	
 	public static String combine(String namen) {
-		String einleitung = "Hallo ich heiﬂe ";
+		String einleitung = "Hallo ich hei√üe ";
 		return einleitung + namen;
 	}
 }

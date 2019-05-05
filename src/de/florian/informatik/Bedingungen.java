@@ -8,9 +8,9 @@ public class Bedingungen {
 		// System.out.println("Ergebnis: " + ergebnis);
 		
 		if (ergebnis > 5) {
-			System.out.println("Das Ergebnis ist größer als 10");
+			System.out.println("Das Ergebnis ist grÃ¶ÃŸer als 10");
 		} else if(ergebnis > 3){
-			System.out.println("Das Ergebnis ist größer als 3");
+			System.out.println("Das Ergebnis ist grÃ¶ÃŸer als 3");
 		} else if(ergebnis < 0) {
 			System.out.println("das Ergebnis ist kleiner als 0");
 		} else {

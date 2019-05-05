@@ -13,7 +13,7 @@ public class Listen2 {
 		alleStrings.add("zwei");
 		alleStrings.add("drei");
 		alleStrings.add("vier");
-		alleStrings.add("fünf");
+		alleStrings.add("fÃ¼nf");
 		alleStrings.add("sechs");
 		alleStrings.add("sieben");
 
@@ -24,7 +24,7 @@ public class Listen2 {
 
 		System.out.println(alleStrings);
 
-		// Liste löschen
+		// Liste lï¿½schen
 		for (int i = alleStrings.size(); i > 0; i--) {
 			alleStrings.remove(i - 1);
 		}

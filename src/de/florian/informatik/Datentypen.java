@@ -4,7 +4,7 @@ public class Datentypen {
 	public static void main(String[] args) {
 		String name = "Mein Name ist Florian und ich bin ";	
 		int alter = 15;
-		char euro = '€';
+		char euro = 'â‚¬';
 		double taschengeld = 19.99;
 		// boolean wahrFalsch = true; 
 		

@@ -5,19 +5,19 @@ import java.util.Scanner;
 public class Taschenrechner1 {
  static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		// Variable für die erste Zahl
+		// Variable fÃ¼r die erste Zahl
 		double zahl1;
 
-		// Variable für die zweite Zahl
+		// Variable fÃ¼r die zweite Zahl
 		double zahl2;
 
-		// Variable für das Ergebnis
+		// Variable fÃ¼r das Ergebnis
 		double ergebnis = 0;
 
-		// Variable für den Operator
+		// Variable fÃ¼r den Operator
 		char operator;
 
-		// Diese Variablen sind für die Abfrage ob noch etwas gerechnet werden soll
+		// Diese Variablen sind fÃ¼r die Abfrage ob noch etwas gerechnet werden soll
 		// zustandig
 		char JaNein;
 		boolean wiederholen = true;
@@ -40,7 +40,7 @@ public class Taschenrechner1 {
 				System.out.print("Bitte den Operator eingeben: ");
 				operator = scanner.next().trim().charAt(0);
 
-				// Operator überprüfen und ggf. das Ergebnis ausrechnen
+				// Operator Ã¼berprÃ¼fen und ggf. das Ergebnis ausrechnen
 				if (operator == '+') {
 					ergebnis = zahl1 + zahl2;
 					okay = true;
@@ -78,7 +78,7 @@ public class Taschenrechner1 {
 			// Nachfragen ob noch etwas gerechnet werden soll
 			do {
 				okay = false;
-				System.out.print("Möchtest du noch etwas rechnen[J/N]? ");
+				System.out.print("MÃ¶chtest du noch etwas rechnen[J/N]? ");
 				JaNein = scanner.next().trim().charAt(0);
 				System.out.println();
 
